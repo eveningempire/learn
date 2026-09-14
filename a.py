@@ -1,4 +1,3 @@
-
 from good.b import number
 
 n = number(10)
