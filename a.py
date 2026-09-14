@@ -1,7 +1,7 @@
-from good.b import number
+from good.c import supernumber
 
-n = number(10)
+n = supernumber(10, 5)
 
 print(n)
-print(n.is_even())
-print(n.is_odd())
+print(n.is_positive())
+print(n.is_negative())
